@@ -1,5 +1,6 @@
 {
-    "type": "project",
+    "name": "bundle/dtoservice",
+    "type": "symfony-bundle",
     "license": "proprietary",
     "minimum-stability": "stable",
     "prefer-stable": true,
@@ -26,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "DTOService\\Bundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "App\\Tests\\": "tests/"
+            "DTOService\\Bundle\\Tests\\": "tests/"
         }
     },
     "replace": {
